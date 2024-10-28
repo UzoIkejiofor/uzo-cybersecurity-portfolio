@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center p-8">
       <div className="absolute top-8 right-8 cyber-border rounded-lg overflow-hidden w-48 h-48">
         <img
-          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+          src="/profile.jpg"
           alt="Professional headshot"
           className="w-full h-full object-cover"
         />
