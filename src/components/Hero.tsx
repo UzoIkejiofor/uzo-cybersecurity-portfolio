@@ -2,7 +2,14 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center p-8">
+    <section 
+      className="relative min-h-screen flex items-center justify-center p-8 bg-cover bg-center bg-no-repeat"
+      style={{ 
+        backgroundImage: 'url("https://images.unsplash.com/photo-1518770660439-4636190af475")', 
+        backgroundBlendMode: 'overlay',
+        backgroundColor: 'rgba(10, 25, 47, 0.9)'
+      }}
+    >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
