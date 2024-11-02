@@ -3,14 +3,6 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center p-8">
-      <div className="absolute top-8 right-8 cyber-border rounded-lg overflow-hidden w-48 h-48">
-        <img
-          src="/profile-headshot.jpg"
-          alt="Professional headshot"
-          className="w-full h-full object-cover"
-        />
-      </div>
-      
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
