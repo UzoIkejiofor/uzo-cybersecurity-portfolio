@@ -10,6 +10,12 @@ const Hero = () => {
         backgroundColor: 'rgba(10, 25, 47, 0.9)'
       }}
     >
+      <div className="absolute top-4 right-4 text-right">
+        <h3 className="text-xl font-mono text-cyber-green">Uzo Ikejiofor</h3>
+        <a href="mailto:Uzoikejiofor@gmail.com" className="text-electric-blue hover:text-cyber-green transition-colors">
+          Uzoikejiofor@gmail.com
+        </a>
+      </div>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
