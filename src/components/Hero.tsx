@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center p-8">
       <div className="absolute top-8 right-8 cyber-border rounded-lg overflow-hidden w-48 h-48">
         <img
-          src="/profile2.jpg"
+          src="/profile-headshot.jpg"
           alt="Professional headshot"
           className="w-full h-full object-cover"
         />
